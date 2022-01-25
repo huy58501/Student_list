@@ -15,6 +15,7 @@ public class PartTimeStudent extends Student{
         super(stuId,name);
         this.numCourses = numCourses;
     }
+
     public int getNumCourses() {
         return numCourses;
     }
