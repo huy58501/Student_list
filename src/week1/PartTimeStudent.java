@@ -10,7 +10,11 @@ package week1;
  */
 public class PartTimeStudent extends Student{
     private int numCourses;
-
+    
+    public PartTimeStudent(String stuId,String name,int numCourses){
+        super(stuId,name);
+        this.numCourses = numCourses;
+    }
     public int getNumCourses() {
         return numCourses;
     }
